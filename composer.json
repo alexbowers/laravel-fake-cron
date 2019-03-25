@@ -1,0 +1,30 @@
+{
+    "name": "alexbowers/laravel-fake-cron",
+    "authors": [
+        {
+            "name": "Alex Bowers",
+            "email": "bowersbros@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^5.8",
+        "illuminate/console": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlexBowers\\LaravelFakeCron\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlexBowers\\LaravelFakeCron\\FakeCronServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
